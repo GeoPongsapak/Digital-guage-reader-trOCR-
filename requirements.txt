@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+torchvision
+transformers
+sentencepiece
+ultralytics
+pillow
+protobuf
