@@ -1,11 +1,13 @@
 from utils.eval import EvalData
 import cv2
 import os
+# ================ Single Frame ===================
 
 # img = cv2.imread('src/images/no_croped/12.14HTM52CP051_2_21.00.jpg')
 # pred = EvalData(frame=img)
 # pred.show_result()
 
+# ===================== Folder Path ===============================
 # img_path = os.listdir('src/images/no_croped')
 
 # for path in img_path:
@@ -13,6 +15,7 @@ import os
 #     predict.show_result()
 #     print(predict.generated_text)
 
+# ===================== Video =========================
 font = cv2.FONT_HERSHEY_SIMPLEX 
 cap = cv2.VideoCapture('src/videos/test5.mp4')
 
